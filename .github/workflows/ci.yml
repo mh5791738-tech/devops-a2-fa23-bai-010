@@ -20,7 +20,6 @@ jobs:
           grep -q 'fa23-bai-010' index.html
           grep -q 'stylesheet' index.html
           grep -q 'Skills' index.html
-          grep -q 'Skills' index.html
           if grep -q '{{' index.html; then echo "Unfilled placeholder in index.html"; exit 1; fi
           echo "Page checks passed"
 
